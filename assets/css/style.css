@@ -129,7 +129,7 @@
 /*CARROSEL*/
 
 body{
-    background:rgb(187, 250, 250);
+    background:rgb(22, 133, 0);
     padding: 20px;
 }
 
@@ -141,11 +141,11 @@ body{
 
 .header2.bg-success-gradiant {
   background: #2cdd9b;
-  background: -webkit-linear-gradient(legacy-direction(to right), #dd2cd4 0%, #771dcc 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#dd2cd4), to(#771dcc));
-  background: -webkit-linear-gradient(left, #dd2cd4 0%, #771dcc 100%);
-  background: -o-linear-gradient(left, #dd2cd4 0%,#771dcc 100%);
-  background: linear-gradient(to right, #2cdd9b 0%, #771dcc 100%);
+  background: -webkit-linear-gradient(legacy-direction(to right), #1ce00a 0%, #99ff8c 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#1ce00a), to(#99ff8c));
+  background: -webkit-linear-gradient(left, #1ce00a 0%, #99ff8c 100%);
+  background: -o-linear-gradient(left, #1ce00a 0%,#99ff8c 100%);
+  background: linear-gradient(to right, #1ce00a 0%, #99ff8c 100%);
 }
 
 .header2 .font-12 {
@@ -221,4 +221,17 @@ body{
   margin-left: 0;
   border-radius: 0.25rem;
   display: none;
+}
+h2{
+  color: #053f00;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+h3{
+  color: #053f00;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+  color: #0c9600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
