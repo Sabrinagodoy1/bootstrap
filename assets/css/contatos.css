@@ -11,20 +11,25 @@ body{
 
 .header2.bg-success-gradiant {
   background: #872cdd;
-  background: -webkit-linear-gradient(legacy-direction(to right), #5e0202 0%, #ff2323 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#5e0202), to(#ff2323));
-  background: -webkit-linear-gradient(left, #5e0202 0%, #ff2323 100%);
-  background: -o-linear-gradient(left, #5e0202 0%,#ff2323 100%);
-  background: linear-gradient(to right, #5e0202 0%, #ff2323 100%);
+  background: -webkit-linear-gradient(legacy-direction(to right), #ac0039 0%, #872cdd 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ac0039), to(#872cdd));
+  background: -webkit-linear-gradient(left, #ac0039 0%, #872cdd 100%);
+  background: -o-linear-gradient(left, #ac0039 0%,#872cdd 100%);
+  background: linear-gradient(to right, #ac0039 0%, #872cdd 100%);
 }
 
 .header2 .font-12 {
   font-size: 12px;
 }
+.containera {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
 
 .header2 .dropdown-item {
   padding: 8px 1rem;
-  color: #8d97ad;
+  color: #474e5e;
 }
 
 .header2 .h2-nav .navbar-nav .nav-item .nav-link {
@@ -91,4 +96,35 @@ body{
   margin-left: 0;
   border-radius: 0.25rem;
   display: none;
+}
+/*
+=========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+body {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
 }

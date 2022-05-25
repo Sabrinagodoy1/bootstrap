@@ -1,6 +1,8 @@
-
-
-
+.containera {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
 
 body{
     background:rgb(252, 171, 133);

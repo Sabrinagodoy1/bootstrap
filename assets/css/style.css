@@ -235,3 +235,8 @@ h4{
   color: #0c9600;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.containera {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}

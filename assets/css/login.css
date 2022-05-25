@@ -1,3 +1,8 @@
+.containera {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
 body{
     background:rgb(255, 92, 92);
     padding: 20px;
@@ -24,7 +29,7 @@ body{
 
 .header2 .dropdown-item {
   padding: 8px 1rem;
-  color: #f4f7fd;
+  color: #000000;
 }
 
 .header2 .h2-nav .navbar-nav .nav-item .nav-link {
@@ -91,4 +96,9 @@ body{
   margin-left: 0;
   border-radius: 0.25rem;
   display: none;
+}
+iframe{
+   margin: 110%;
+   margin-top: 0%;
+   margin-bottom: 0%;
 }

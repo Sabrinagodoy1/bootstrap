@@ -70,6 +70,11 @@ body{
   background-color: #343a40;
   border-color: #343a40;
 }
+.containera {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
 
 .header2 .btn-dark:hover {
   color: #fff;
